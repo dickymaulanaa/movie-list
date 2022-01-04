@@ -1,0 +1,16 @@
+.slider-movie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.desc-slider{
+    width: 30%;
+    padding-top: 10px;
+    color: white;
+}
+.movie-slider{
+    width: 50%;
+}

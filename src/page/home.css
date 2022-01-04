@@ -1,0 +1,93 @@
+.Container-Home{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #000000
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    z-index: 2;
+}
+.menu{
+    height: auto;
+    position: fixed;
+    margin-top: 200px;
+}
+
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -90px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 140px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+  
+  #mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  
+  /* The about link: 20px from the top with a green background */
+  #home {
+    top: 20px;
+    background-color: #04AA6D;
+  }
+  
+  #search {
+    top: 80px;
+    background-color: #2196F3; /* Blue */
+  }
+  
+  #movie {
+    top: 140px;
+    background-color: #f44336; /* Red */
+  }
+  
+  #series {
+    top: 200px;
+    background-color: #555 /* Light Black */
+  }
+
+
+.Container-Content{
+    display: flex;
+    flex-direction: column;
+    background-color: crimson;
+    width: 100%;
+    height: auto;
+
+}
+
+.slider{
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    z-index: 1;
+}
+
+
+
+.content{
+    width: 100%;
+    height: auto;
+    background-color: darkslategray;
+    
+}
+
+.list{
+    height: 300px;
+    width: 80%;
+    margin : 0 auto;
+    background-color: darkorchid;
+    padding-bottom: 50px;
+    
+}
